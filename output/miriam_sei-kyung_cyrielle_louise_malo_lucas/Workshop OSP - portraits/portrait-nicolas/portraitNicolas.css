@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+
+
+@font-face {
+    font-family:'Bagnard';
+    src: url('Bagnard.otf') format('opentype');
+    font-weight: normal;
+}
+
+
+.header {
+
+    font-family: 'Bagnard';
+
+    font-size: 20pt;
+
+    text-decoration: underline;
+
+    }
+
+h1 {
+    display: none;
+    }
+
+.timestamp{
+    display:none;
+}
+
+.numero {
+        font-size:25px;
+        font-family:Alegreya Sans;
+        margin-left:20%;
+    }
+
+
+.replique-nicolas p{
+      font-family: 'Bagnard';
+
+    font-size: 15pt;
+
+    line-height: 21pt;
+
+    letter-spacing: 0 em;
+
+    margin-left: 40%;
+
+
+}
+
+.replique-marie, .replique-francis, .replique-autre {
+
+        display:none;
+
+    }
+
+
+
+
+#replique115 p, #replique139 p,#replique170 p, #replique182 p, #replique201 p, #replique258 p, #replique479 p, #replique613 p, #replique617 p, #replique619 p, #replique623 p, #replique628 p, #replique645 p, #replique660 p, #replique661 p, #replique664 p, #replique706 p, #replique939 p, #replique979 p, #replique993 p, #replique994 p{
+    color: purple;
+    font-size: 35px;
+    line-height: 45px;
+    margin-left: 30%;
+    letter-spacing:0.5em;
+
+    margin-top:40px;
+
+    margin-bottom:60px;
+
+}
+
+#replique418 p, #replique419 p, #replique420 p {
+    color: orange;
+    font-style: italic;
+    font-size: 22pt;
+    line-height: 27pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.full-page {
+    background-color:blue;
+    height:270mm;
+}
+
+#page-optionnelle{
+    display:none;
+}

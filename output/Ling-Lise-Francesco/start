@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+cd desktop/html2print/
+
+python -m SimpleHTTPServer

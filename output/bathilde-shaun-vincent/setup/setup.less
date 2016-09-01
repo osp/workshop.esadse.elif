@@ -1,0 +1,28 @@
+/* the geometry of the page */
+@page-width: 180mm;
+@page-height: 265mm;
+
+/* the size of the crop marks*/
+@crop-size: 7mm;
+
+/* the size of bleed */
+@bleed: 5mm;
+
+/* margins */
+@page-margin-inside: 10mm;
+@page-margin-outside: 10mm;
+@page-margin-top: 10mm;
+@page-margin-bottom: 15mm;
+
+// Header & footer variables
+@header-height: 10mm;
+@header-text: " Les amours imaginaires";
+.footer {
+  counter-increment: page-counter;
+}
+@footer-height: 10mm;
+@footer-text: counter(page-counter);
+
+#garde-1 {
+    width: @page-width/2 + ( @crop * 2 )
+}

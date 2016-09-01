@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+cd Desktop/esadse/osp.workshop.esadse.elif/
+python -m SimpleHTTPServer

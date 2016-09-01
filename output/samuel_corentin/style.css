@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "CourierPrime";
+    src: url('/CourierPrimeSans.ttf');
+}
+
+.green{
+width:100%;
+height: 316px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+p{
+text-align: center;
+font-size: 100px !important;
+color: white;
+font-family:"CourierPrime";
+break-after: always;
+}
+
+
+.red{
+    width:100%;
+height: 316px;
+    margin:0;
+    padding:0;
+    background-size:cover;
+ //break-after: always;
+}
+
+.paper:nth-child(odd) {
+     background-color:#0C360A;
+}

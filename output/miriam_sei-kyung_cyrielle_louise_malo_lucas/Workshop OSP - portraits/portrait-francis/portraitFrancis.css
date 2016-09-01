@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Ok';
+
+        src: url('/CothamOk.ttf') format('truetype');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: 'Unna';
+    src: url('unna_italic.otf') format('opentype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Unna';
+    src: url('unna_bold.otf') format('opentype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'autobahn';
+    src: url('autobahn.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100);
+@import url(https://fonts.googleapis.com/css?family=Basic);
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+h1{
+display: none;
+    }
+
+body {
+    
+
+    }
+    
+
+.timestamp{
+    display:none;
+}
+
+.footer {
+    display: none;
+    
+    }
+    
+.header1 {
+    position:absolute;
+ font-family: 'autobahn';
+
+    font-style: normal;
+
+    font-weight: normal;
+    color: rgb(95, 241, 208);
+    font-size: 36pt;
+    letter-spacing: 0.8em;
+    margin:0;
+    margin-top:10mm;
+    }
+
+.header2 {
+    position:absolute;
+ font-family: 'Ok';
+
+    font-style: normal;
+
+    font-weight: normal;
+    color: rgb(12, 196, 159);
+    font-size: 14pt;
+    margin:0;
+    letter-spacing: 0.43em;
+    margin-top:15mm;
+    } 
+
+.numero{
+    font-family: 'Alegreya Sans';
+    font-size: 25px;
+}
+
+.replique-francis {
+    display: inline-block;
+    width: 47%;
+    margin-top: 2%;
+    }
+
+.replique-francis p{
+    font-family: 'Ok';
+    font-weight: normal;
+    font-size: 12pt;
+}
+
+.replique-marie, .replique-nicolas, .replique-autre{
+
+        display:none;
+
+}
+
+/*-------------------------------------
+    Colophon
+-----------------------------*/
+/*
+portrait de Francis 
+réalisé par 
+Lucas Ribeiro
+Cyrielle Molard
+Malo Germond
+Miriam Betoux
+Seikyung Son
+feat OSP  
+
+mise en page avec HTML to print by OSP
+avec la Cotham Sans regular
+autobahn regular
+et alegreya sans
+
+*/ 
